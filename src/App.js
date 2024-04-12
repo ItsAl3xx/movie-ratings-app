@@ -1,13 +1,15 @@
-// src/App.js
-import React from 'react';
-// Import your components here
+// App.js
+// The root component that renders the MovieList.
 
-function App() {
+import React from 'react';
+import MovieList from './components/MovieList';
+
+const App = () => {
   return (
-    <div className="App">
-      {/* Your components will be rendered here */}
+    <div>
+      <MovieList />
     </div>
   );
-}
+};
 
 export default App;
